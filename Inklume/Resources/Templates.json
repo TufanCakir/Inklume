@@ -1,0 +1,218 @@
+{
+    "version": 1,
+    "templates": [
+        {
+            "id": "blank",
+            "name": "Blank Canvas",
+            "category": "Canvas",
+            "symbolName": "doc",
+            "width": 2048,
+            "height": 2048,
+            "transparentByDefault": false,
+            "tags": [
+                "custom"
+            ]
+        },
+        {
+            "id": "illustration",
+            "name": "Illustration",
+            "category": "Art",
+            "symbolName": "paintbrush",
+            "width": 3000,
+            "height": 3000,
+            "transparentByDefault": false,
+            "tags": [
+                "art"
+            ]
+        },
+        {
+            "id": "game-asset",
+            "name": "Game Asset",
+            "category": "Game",
+            "symbolName": "gamecontroller",
+            "width": 1024,
+            "height": 1024,
+            "transparentByDefault": true,
+            "tags": [
+                "game",
+                "alpha"
+            ]
+        },
+        {
+            "id": "sprite",
+            "name": "Sprite",
+            "category": "Game",
+            "symbolName": "figure.walk",
+            "width": 64,
+            "height": 64,
+            "transparentByDefault": true,
+            "frameConfiguration": {
+                "frameWidth": 64,
+                "frameHeight": 64,
+                "columns": 1,
+                "rows": 1,
+                "horizontalSpacing": 0,
+                "verticalSpacing": 0,
+                "padding": 0
+            },
+            "tags": [
+                "pixel",
+                "game"
+            ]
+        },
+        {
+            "id": "sprite-sheet",
+            "name": "Sprite Sheet",
+            "category": "Game",
+            "symbolName": "square.grid.3x3",
+            "width": 256,
+            "height": 64,
+            "transparentByDefault": true,
+            "frameConfiguration": {
+                "frameWidth": 64,
+                "frameHeight": 64,
+                "columns": 4,
+                "rows": 1,
+                "horizontalSpacing": 0,
+                "verticalSpacing": 0,
+                "padding": 0
+            },
+            "tags": [
+                "animation",
+                "game"
+            ]
+        },
+        {
+            "id": "tile",
+            "name": "Tile",
+            "category": "Game",
+            "symbolName": "square.grid.2x2",
+            "width": 32,
+            "height": 32,
+            "transparentByDefault": true,
+            "tags": [
+                "tile",
+                "game"
+            ]
+        },
+        {
+            "id": "tile-set",
+            "name": "Tile Set",
+            "category": "Game",
+            "symbolName": "rectangle.grid.3x2",
+            "width": 256,
+            "height": 256,
+            "transparentByDefault": true,
+            "frameConfiguration": {
+                "frameWidth": 32,
+                "frameHeight": 32,
+                "columns": 8,
+                "rows": 8,
+                "horizontalSpacing": 0,
+                "verticalSpacing": 0,
+                "padding": 0
+            },
+            "tags": [
+                "tiles",
+                "game"
+            ]
+        },
+        {
+            "id": "pixel-frame",
+            "name": "Pixel Frame",
+            "category": "Game",
+            "symbolName": "viewfinder",
+            "width": 128,
+            "height": 128,
+            "transparentByDefault": true,
+            "tags": [
+                "pixel"
+            ]
+        },
+        {
+            "id": "character",
+            "name": "Character",
+            "category": "Game",
+            "symbolName": "person.crop.rectangle",
+            "width": 512,
+            "height": 512,
+            "transparentByDefault": true,
+            "tags": [
+                "character"
+            ]
+        },
+        {
+            "id": "game-ui",
+            "name": "Game UI",
+            "category": "Game",
+            "symbolName": "button.programmable",
+            "width": 1920,
+            "height": 1080,
+            "transparentByDefault": true,
+            "tags": [
+                "ui",
+                "game"
+            ]
+        },
+        {
+            "id": "icon",
+            "name": "Icon",
+            "category": "Design",
+            "symbolName": "app.dashed",
+            "width": 1024,
+            "height": 1024,
+            "transparentByDefault": true,
+            "tags": [
+                "icon"
+            ]
+        },
+        {
+            "id": "banner",
+            "name": "Banner",
+            "category": "Social",
+            "symbolName": "rectangle",
+            "width": 1500,
+            "height": 500,
+            "transparentByDefault": false,
+            "tags": [
+                "web"
+            ]
+        },
+        {
+            "id": "social",
+            "name": "Social Media",
+            "category": "Social",
+            "symbolName": "person.2",
+            "width": 1080,
+            "height": 1080,
+            "transparentByDefault": false,
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "id": "portrait",
+            "name": "Portrait",
+            "category": "Canvas",
+            "symbolName": "rectangle.portrait",
+            "width": 2048,
+            "height": 2732,
+            "transparentByDefault": false,
+            "tags": [
+                "portrait"
+            ]
+        },
+        {
+            "id": "landscape",
+            "name": "Landscape",
+            "category": "Canvas",
+            "symbolName": "rectangle",
+            "width": 2732,
+            "height": 2048,
+            "transparentByDefault": false,
+            "tags": [
+                "landscape"
+            ]
+        }
+    ]
+}
